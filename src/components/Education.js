@@ -1,0 +1,62 @@
+import { motion } from "framer-motion";
+import { educationData } from "../data/resumeData";
+
+const Education = () => {
+  return (
+    <section id="education" className="relative py-16 bg-transparent">
+      <div className="relative z-10 mx-auto max-w-6xl px-6 sm:px-8">
+        <motion.div
+          className="mb-10 text-center"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white tracking-tight font-display">Education</h2>
+          <p className="mt-2 text-xs sm:text-sm text-gray-500 dark:text-gray-400 font-light">My academic background</p>
+        </motion.div>
+        
+        <div className="relative max-w-3xl mx-auto px-2 sm:px-4 md:px-8">
+          {/* Vertical Timeline Line */}
+          <div className="hidden sm:block absolute left-8 top-0 bottom-0 w-[1px] bg-black/5 dark:bg-white/5" />
+          
+          <div className="space-y-6 sm:pl-16">
+            {educationData.map((edu, index) => (
+              <motion.div
+                key={edu.id}
+                className="relative group"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                {/* Timeline Dot Indicator */}
+                <div className="hidden sm:flex absolute -left-[54px] top-6 w-3 h-3 items-center justify-center rounded-full bg-white dark:bg-dark-bg border-2 border-gray-900 dark:border-white shadow-sm group-hover:scale-150 group-hover:border-primary-500 group-hover:bg-primary-500 transition-all duration-300 z-10" />
+                
+                {/* Education Card */}
+                <div className="bg-white dark:bg-dark-card border border-black/5 dark:border-white/5 rounded-3xl p-6 shadow-sm hover:border-black/10 dark:hover:border-white/10 transition-all duration-300 hover:scale-[1.01]">
+                  <div className="flex-1 min-w-0">
+                    <span className="inline-block px-2.5 py-0.5 text-xs bg-gray-100 dark:bg-dark-hover text-gray-600 dark:text-gray-400 font-semibold rounded-full mb-3">
+                      {edu.duration}
+                    </span>
+                    <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white transition-colors tracking-tight">
+                      {edu.degree}
+                    </h3>
+                    <p className="mt-1 text-xs sm:text-sm text-gray-500 dark:text-gray-450 font-medium font-sans">
+                      {edu.institution}
+                    </p>
+                    <p className="mt-3 text-xs sm:text-sm text-gray-600 dark:text-gray-400 leading-relaxed font-light">
+                      {edu.description}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Education;
