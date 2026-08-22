@@ -3,7 +3,7 @@ const pngToIco = require('png-to-ico').default || require('png-to-ico');
 const fs = require('fs');
 
 async function processImage() {
-  const inputFile = './public/profile.jpg';
+  const inputFile = './public/profile.jpeg';
   
   try {
     const metadata = await sharp(inputFile).metadata();
