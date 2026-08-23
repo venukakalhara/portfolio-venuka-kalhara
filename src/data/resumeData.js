@@ -1,8 +1,9 @@
-import mongodbIcon from "../images/mongodb_icon.svg";
-import mongodbAdminImg from "../images/mongodb_admin.png";
-import mongodbGettingStartedImg from "../images/mongodb_getting_started.png";
-import mongodbMetricsImg from "../images/mongodb_metrics.png";
-import mongodbSecurityImg from "../images/mongodb_security.png";
+import certCrud from "../images/cert_crud.svg";
+import certRelational from "../images/cert_relational.svg";
+import certRag from "../images/cert_rag.svg";
+import certSchema from "../images/cert_schema.svg";
+import certDataTransformation from "../images/cert_data_transformation.svg";
+import certVector from "../images/cert_vector.svg";
 
 const contactData = {
   email: "venukakalhara@gmail.com",
@@ -45,7 +46,7 @@ const certificatesData = [
     title: "CRUD Operations in MongoDB",
     organization: "MongoDB University",
     year: "2026",
-    image: mongodbIcon,
+    image: certCrud,
     pdf: process.env.PUBLIC_URL + "/certificates/crud_operations.pdf",
     link: "https://learn.mongodb.com/learn/course/crud-operations-in-mongodb-on-demand"
   },
@@ -54,7 +55,7 @@ const certificatesData = [
     title: "Relational to Document Model",
     organization: "MongoDB University",
     year: "2026",
-    image: mongodbIcon,
+    image: certRelational,
     pdf: process.env.PUBLIC_URL + "/certificates/relational_to_document.pdf",
     link: "https://learn.mongodb.com/learn/course/relational-to-document-model"
   },
@@ -63,7 +64,7 @@ const certificatesData = [
     title: "RAG with MongoDB",
     organization: "MongoDB University",
     year: "2026",
-    image: mongodbIcon,
+    image: certRag,
     pdf: process.env.PUBLIC_URL + "/certificates/rag_with_mongodb.pdf",
     link: "https://learn.mongodb.com/learn/course/rag-with-mongodb"
   },
@@ -72,7 +73,7 @@ const certificatesData = [
     title: "Schema Design Patterns and Antipatterns",
     organization: "MongoDB University",
     year: "2026",
-    image: mongodbIcon,
+    image: certSchema,
     pdf: process.env.PUBLIC_URL + "/certificates/schema_design.pdf",
     link: "https://learn.mongodb.com/learn/course/schema-design-patterns-and-antipatterns"
   },
@@ -81,7 +82,7 @@ const certificatesData = [
     title: "Fundamentals of Data Transformation",
     organization: "MongoDB University",
     year: "2026",
-    image: mongodbIcon,
+    image: certDataTransformation,
     pdf: process.env.PUBLIC_URL + "/certificates/data_transformation.pdf",
     link: "https://learn.mongodb.com/learn/course/fundamentals-of-data-transformation"
   },
@@ -90,46 +91,11 @@ const certificatesData = [
     title: "Vector Search Fundamentals",
     organization: "MongoDB University",
     year: "2026",
-    image: mongodbIcon,
+    image: certVector,
     pdf: process.env.PUBLIC_URL + "/certificates/vector_search.pdf",
     link: "https://learn.mongodb.com/learn/course/vector-search-fundamentals"
-  },
-  {
-    id: 7,
-    title: "MongoDB Associate Administrator",
-    organization: "MongoDB University",
-    year: "2026",
-    image: mongodbAdminImg,
-    pdf: "https://learn.mongodb.com/",
-    link: "https://learn.mongodb.com/"
-  },
-  {
-    id: 8,
-    title: "MongoDB Getting Started",
-    organization: "MongoDB University",
-    year: "2026",
-    image: mongodbGettingStartedImg,
-    pdf: "https://learn.mongodb.com/",
-    link: "https://learn.mongodb.com/"
-  },
-  {
-    id: 9,
-    title: "MongoDB Metrics",
-    organization: "MongoDB University",
-    year: "2026",
-    image: mongodbMetricsImg,
-    pdf: "https://learn.mongodb.com/",
-    link: "https://learn.mongodb.com/"
-  },
-  {
-    id: 10,
-    title: "MongoDB Security",
-    organization: "MongoDB University",
-    year: "2026",
-    image: mongodbSecurityImg,
-    pdf: "https://learn.mongodb.com/",
-    link: "https://learn.mongodb.com/"
   }
 ];
 
 export { contactData, educationData, experienceData, skillsData, certificatesData };
+

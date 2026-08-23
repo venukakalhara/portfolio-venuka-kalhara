@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 565" width="100%" height="100%">
+  <!-- White Background -->
+  <rect width="800" height="565" fill="#ffffff" />
+  
+  <!-- Green top-right decoration -->
+  <path d="M 500,0 C 620,120 700,50 800,180 L 800,0 Z" fill="#00ed64" opacity="0.12" />
+  <path d="M 600,0 C 680,60 740,40 800,100 L 800,0 Z" fill="#00684a" opacity="0.08" />
+
+  <!-- Green bottom-left decoration -->
+  <path d="M 0,380 C 100,420 120,480 180,565 L 0,565 Z" fill="#00ed64" opacity="0.08" />
+  <path d="M 0,440 C 60,470 80,510 120,565 L 0,565 Z" fill="#00684a" opacity="0.05" />
+
+  <!-- Green bottom-right decoration curve -->
+  <path d="M 450,565 C 560,440 680,410 800,490 L 800,565 Z" fill="#00684a" />
+  <path d="M 520,565 C 610,470 700,450 800,515 L 800,565 Z" fill="#00ed64" opacity="0.85" />
+  
+  <!-- Border -->
+  <rect x="20" y="20" width="760" height="525" fill="none" stroke="#e1e8ed" stroke-width="2" rx="4" />
+  
+  <!-- Content -->
+  <!-- "Proof of Completion" -->
+  <text x="80" y="100" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="bold" fill="#00684a">Proof of Completion</text>
+  
+  <text x="80" y="185" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#6b7280" letter-spacing="1">CONGRATULATIONS TO</text>
+  
+  <!-- Student Name -->
+  <text x="80" y="235" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="bold" fill="#111827">Venuka Kalhara</text>
+  
+  <text x="80" y="295" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#6b7280">for successfully completing the course</text>
+  
+  <!-- Course Title (handling wrap if needed or just styling nicely) -->
+  <text x="80" y="345" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="bold" fill="#00684a">Schema Design Patterns & Antipatterns</text>
+  
+  <!-- Date / Signatures -->
+  <line x1="80" y1="440" x2="250" y2="440" stroke="#e5e7eb" stroke-width="1" />
+  <text x="80" y="460" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">DATE COMPLETED</text>
+  <text x="80" y="480" font-family="'Inter', Arial, sans-serif" font-size="13" font-weight="bold" fill="#374151">August 23, 2026</text>
+
+  <line x1="290" y1="440" x2="460" y2="440" stroke="#e5e7eb" stroke-width="1" />
+  <text x="290" y="460" font-family="'Inter', Arial, sans-serif" font-size="11" fill="#9ca3af" letter-spacing="0.5">PROVIDER</text>
+  <text x="290" y="480" font-family="'Inter', Arial, sans-serif" font-size="13" font-weight="bold" fill="#374151">MongoDB University</text>
+
+  <!-- MongoDB Leaf Logo (Vector) in bottom right corner -->
+  <g transform="translate(680, 475) scale(2.2)">
+    <!-- Outer/dark green part of the leaf -->
+    <path d="M7.4 0.6 C7.4 0.6 3.1 5 1.5 8 C0 10.8 0 13.8 1 15.6 C2 17.4 4.1 18.6 6.1 19 C5 19.4 3.7 19.5 1.9 19 C-0.5 18 -2.1 15.5 -2.5 12.5 C-2.9 9.5 -1.5 6.1 1.2 2.8 C3.9 -0.5 7.4 -3.8 7.4 -3.8 Z" fill="#ffffff" />
+    <path d="M7.4 -3.8 C7.4 -3.8 8.6 0.2 7.4 3.7 C6.2 7.2 2.7 10 0 12 C1.5 11.7 3 10.9 3.7 9.7 C4.4 8.5 4.2 7.2 3.7 5.9 C3.2 4.6 2.1 3.5 0.9 2.5 C-0.3 1.5 -0.7 1.3 -0.7 1.3 C-0.7 1.3 2.5 -1.1 7.4 -3.8 Z" fill="#ffffff" opacity="0.65" />
+  </g>
+  
+  <text x="635" y="530" font-family="'Inter', Arial, sans-serif" font-weight="bold" font-size="13" fill="#ffffff" letter-spacing="1">MongoDB</text>
+</svg>
