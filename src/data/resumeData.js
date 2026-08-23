@@ -15,8 +15,15 @@ const educationData = [
     id: 1,
     institution: "SLIIT (Sri Lanka Institute of Information Technology)",
     degree: "BSc (Hons) in Information Technology",
-    duration: "Present",
-    description: "Specializing in software development, UI/UX design, and Human-Computer Interaction (HCI). Passionate about building intuitive, user-centered web applications."
+    duration: "2023 - Present",
+    description: "An Information Technology undergraduate specializing in software engineering, modern web technologies, and interactive UI/UX design. Passionate about building robust, scalable web applications and solving real-world problems with clean, efficient code."
+  },
+  {
+    id: 2,
+    institution: "Ruhunu Vijayaba National College (RVC)",
+    degree: "G.C.E. Advanced Level (Technology Stream)",
+    duration: "2008 - 2021",
+    description: "Successfully completed secondary education specializing in the Technology stream with focus on Engineering Technology (ET), Science for Technology (SFT), and ICT, establishing a strong technical and analytical foundation for higher education."
   }
 ];
 
