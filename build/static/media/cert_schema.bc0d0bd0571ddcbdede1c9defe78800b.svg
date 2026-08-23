@@ -30,7 +30,7 @@
   <text x="80" y="295" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#6b7280">for successfully completing the course</text>
   
   <!-- Course Title (handling wrap if needed or just styling nicely) -->
-  <text x="80" y="345" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="bold" fill="#00684a">Schema Design Patterns & Antipatterns</text>
+  <text x="80" y="345" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="bold" fill="#00684a">Schema Design Patterns &amp; Antipatterns</text>
   
   <!-- Date / Signatures -->
   <line x1="80" y1="440" x2="250" y2="440" stroke="#e5e7eb" stroke-width="1" />

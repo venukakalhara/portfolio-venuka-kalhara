@@ -10,6 +10,18 @@ const certs = [
   { filename: 'cert_vector.svg', title: 'Vector Search Fundamentals' }
 ];
 
+const escapeXml = (unsafe) => {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+    }
+  });
+};
+
 const template = (title) => `<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 565" width="100%" height="100%">
   <!-- White Background -->
@@ -42,7 +54,7 @@ const template = (title) => `<?xml version="1.0" encoding="utf-8"?>
   <text x="80" y="295" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#6b7280">for successfully completing the course</text>
   
   <!-- Course Title (handling wrap if needed or just styling nicely) -->
-  <text x="80" y="345" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="bold" fill="#00684a">${title}</text>
+  <text x="80" y="345" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="bold" fill="#00684a">${escapeXml(title)}</text>
   
   <!-- Date / Signatures -->
   <line x1="80" y1="440" x2="250" y2="440" stroke="#e5e7eb" stroke-width="1" />
