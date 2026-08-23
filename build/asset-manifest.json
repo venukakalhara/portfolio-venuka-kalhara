@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.42a8df04.css",
-    "main.js": "/static/js/main.975dbeec.js",
+    "main.js": "/static/js/main.546df06c.js",
     "static/js/453.a7d99afe.chunk.js": "/static/js/453.a7d99afe.chunk.js",
+    "static/media/mongodb_getting_started.png": "/static/media/mongodb_getting_started.7c5780894915e3178cec.png",
+    "static/media/mongodb_metrics.png": "/static/media/mongodb_metrics.3d9303ee172d6abddba4.png",
+    "static/media/mongodb_admin.png": "/static/media/mongodb_admin.2bfc333c1e9534c8f298.png",
+    "static/media/mongodb_security.png": "/static/media/mongodb_security.c79f4126914ee271c116.png",
     "static/media/234.jpeg": "/static/media/234.c12ccebf9dd97353fe66.jpeg",
     "static/media/profile.jpeg": "/static/media/profile.6f2770502b8191eb8e2d.jpeg",
     "index.html": "/index.html",
+    "static/media/mongodb_icon.svg": "/static/media/mongodb_icon.d930c2c4198d1000c2fb8b7d3177a44c.svg",
     "main.42a8df04.css.map": "/static/css/main.42a8df04.css.map",
-    "main.975dbeec.js.map": "/static/js/main.975dbeec.js.map",
+    "main.546df06c.js.map": "/static/js/main.546df06c.js.map",
     "453.a7d99afe.chunk.js.map": "/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42a8df04.css",
-    "static/js/main.975dbeec.js"
+    "static/js/main.546df06c.js"
   ]
 }
