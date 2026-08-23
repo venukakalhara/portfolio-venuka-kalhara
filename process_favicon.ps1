@@ -44,6 +44,13 @@ function Create-CircularIcon {
 Create-CircularIcon -targetSize 512 -OutputPath "public\logo512.png"
 Create-CircularIcon -targetSize 192 -OutputPath "public\logo192.png"
 Create-CircularIcon -targetSize 256 -OutputPath "public\favicon.ico"
+Create-CircularIcon -targetSize 180 -OutputPath "public\apple-touch-icon.png"
+Create-CircularIcon -targetSize 144 -OutputPath "public\favicon-144.png"
+Create-CircularIcon -targetSize 96 -OutputPath "public\favicon-96.png"
+Create-CircularIcon -targetSize 64 -OutputPath "public\favicon-64.png"
+Create-CircularIcon -targetSize 48 -OutputPath "public\favicon-48.png"
+Create-CircularIcon -targetSize 32 -OutputPath "public\favicon-32.png"
 
 $img.Dispose()
 Write-Host "Done!"
+
