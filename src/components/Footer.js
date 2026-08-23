@@ -7,8 +7,8 @@ const Footer = () => {
           <p>© {currentYear} Venuka Kalhara. All rights reserved.</p>
         </div>
         <div className="flex items-center gap-4">
-          <a href="mailto:venukakalhara@gmail.com" className="hidden sm:block text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors font-medium">
-            venukakalhara@gmail.com
+          <a href="mailto:venukakalharaofficial@gmail.com" className="hidden sm:block text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors font-medium">
+            venukakalharaofficial@gmail.com
           </a>
           <span className="hidden sm:block text-gray-300 dark:text-gray-600">|</span>
           <a href="#contact" className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">

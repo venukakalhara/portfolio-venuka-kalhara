@@ -73,13 +73,13 @@ const Contact = () => {
     {
       icon: "✉️",
       label: "Email",
-      value: "venukakalhara@gmail.com",
-      href: "mailto:venukakalhara@gmail.com"
+      value: "venukakalharaofficial@gmail.com",
+      href: "mailto:venukakalharaofficial@gmail.com"
     },
     {
       icon: "📍",
       label: "Location",
-      value: "Colombo, Sri Lanka",
+      value: "Malabe, Sri Lanka",
       href: "#"
     }
   ];
@@ -177,8 +177,8 @@ const Contact = () => {
                 <p className="font-bold">❌ Failed to Send Message</p>
                 <p className="font-light mt-1">
                   Something went wrong while sending your message. Please try again or email me directly at{" "}
-                  <a href="mailto:venukakalhara@gmail.com" className="underline font-semibold">
-                    venukakalhara@gmail.com
+                  <a href="mailto:venukakalharaofficial@gmail.com" className="underline font-semibold">
+                    venukakalharaofficial@gmail.com
                   </a>.
                 </p>
               </div>

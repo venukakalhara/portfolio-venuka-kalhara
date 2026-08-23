@@ -6,8 +6,8 @@ import certDataTransformation from "../images/cert_data_transformation.svg";
 import certVector from "../images/cert_vector.svg";
 
 const contactData = {
-  email: "venukakalhara@gmail.com",
-  location: "Colombo, Sri Lanka"
+  email: "venukakalharaofficial@gmail.com",
+  location: "Malabe, Sri Lanka"
 };
 
 const educationData = [
